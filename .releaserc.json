@@ -15,6 +15,18 @@
 	"tagFormat": "v${version}",
 	"plugins": [
 		[
+			"@semantic-release/commit-analyzer",
+			{
+				"preset": "conventionalcommits",
+				"releaseRules": [
+					{ "type": "gameplay", "release": "patch" },
+					{ "type": "feat", "release": "minor" },
+					{ "type": "fix", "release": "minor" },
+					{ "type": "refactor", "release": false }
+				]
+			}
+		],
+		[
 			"@semantic-release/release-notes-generator",
 			{
 				"preset": "conventionalcommits",
@@ -30,20 +42,7 @@
 		[
 			"@semantic-release/changelog",
 			{
-				"changelogTitle": "Kubick's Changelog",
 				"changelogFile": "docs/CHANGELOG.md"
-			}
-		],
-		[
-			"@semantic-release/commit-analyzer",
-			{
-				"preset": "conventionalcommits",
-				"releaseRules": [
-					{ "type": "gameplay", "release": "patch" },
-					{ "type": "feat", "release": "minor" },
-					{ "type": "fix", "release": "minor" },
-					{ "type": "refactor", "release": false }
-				]
 			}
 		],
 		[
