@@ -1,19 +1,16 @@
-# Kubick
+# SquaredAvenue
 
-![CurseForge](https://cf.way2muchnoise.eu/431680.svg) ![CurseForge Versions](https://cf.way2muchnoise.eu/versions/431680.svg)
-
-The Mystic Alchemist's Modpack is innovative Minecraft Forge modpack related to building technical world with a bit of adventure.
-
-> Server currently is moved out from our k8s cluster because of issues with importing configuration, as a solution we've build a bare-metal server based on
-> Docker, we aren't sure about final decision about production.
+SquaredAvenue is an small experiment made up by Jakub Olan, to check what we can archive by building Minecraft server (as application which needs a lot of
+resources) on Kubernetes and what problems may come when it comes to scalability. SquaredAvenue is an pretty big adventure mixed with technology modpack which
+should probivde few good hours to spend time with.
 
 ## Features
 
--   Stunning new biomes by [Biomes'O'Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
--   New [Chisel]()-based blocks and furnitures ([Bibliocraft]()) to make your buildings awesome.
--   New structures and dungeons to discover, powered by [Rougelike Dungeons]() and [Reccurrent Complex]()
--   Interesting underground life with upgraded caves, dungeons and mining mechanics.
--   Unique tool crafting experience with [Thinker's Construct]() and [Tetra]()
+-  Stunning new biomes by [Biomes'O'Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
+-  New [Chisel]()-based blocks and furnitures ([Bibliocraft]()) to make your buildings awesome.
+-  New structures and dungeons to discover, powered by [Rougelike Dungeons]() and [Reccurrent Complex]()
+-  Interesting underground life with upgraded caves, dungeons and mining mechanics.
+-  Unique tool crafting experience with [Thinker's Construct]() and [Tetra]()
 
 ## Usage
 
@@ -28,9 +25,9 @@ $ cd docker-compose up -f "docker-compose.lite.yaml"
 
 ## Recommendations
 
--   **Minium allocated RAM**: 6GB
--   **Recommended allocated RAM**: 8GB
--   [**Optifine**](OPTIFINE.md): Partial Support for OptiFine HD U F5 (not included
+-  **Minium allocated RAM**: 6GB
+-  **Recommended allocated RAM**: 8GB
+-  [**Optifine**](OPTIFINE.md): Partial Support for OptiFine HD U F5 (not included)
 
 ## Credits
 
