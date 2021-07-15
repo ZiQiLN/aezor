@@ -4,6 +4,8 @@ SquaredAvenue is an small experiment made up by Jakub Olan, to check what we can
 resources) on Kubernetes and what problems may come when it comes to scalability. SquaredAvenue is an pretty big adventure mixed with technology modpack which
 should probivde few good hours to spend time with.
 
+> Actually we're migrating our modpack from 1.12.2 to 1.16 becuase of new cool features that can be experiened in gameplay.
+
 ## Features
 
 -  Stunning new biomes by [Biomes'O'Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
@@ -14,20 +16,9 @@ should probivde few good hours to spend time with.
 
 ## Usage
 
-Complete guide for installing client-side mods with [CurseForge]() and building server based on [Docker]() or if somebody prefers production-like environment
-[Kubernetes]() with [Skaffold]().
-
 ```
-$ git clone https://github.com/ZiQiLN/mystic-alchemists.git
-$ cd mystic-alchemists
-$ cd docker-compose up -f "docker-compose.lite.yaml"
+youDoNot()
 ```
-
-## Recommendations
-
--  **Minium allocated RAM**: 6GB
--  **Recommended allocated RAM**: 8GB
--  [**Optifine**](OPTIFINE.md): Partial Support for OptiFine HD U F5 (not included)
 
 ## Credits
 
